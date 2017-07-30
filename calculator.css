@@ -1,0 +1,52 @@
+.keys:not(:last-of-type) {
+    margin-bottom: 20px;
+}
+.keypad button {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    font-size: 28px;
+}
+.calculator {
+    border: 1px solid #D6D6D6;
+    padding: 10px;
+    width: 434px;
+    height: 550px;
+    display: inline-block;
+    background-color: #242424;
+}
+.screen {
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    color: #333;
+    padding: 5px;
+    margin-top: 5px;
+    outline: none;
+    width: 85%;
+    height: 60px;
+    margin-left: 30px;
+    background-color: white;
+    font-size: 28px;
+    font-style: bold;
+    overflow: hidden;
+
+
+}
+
+.keypad {
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.clear button {
+  width: 85%;
+  height: 70px;
+  margin-top: 15px;
+  font-size: 28px;
+  align-content: center;
+}
+/* Dont add the CSS below */
+.demo {
+    text-align: center;
+    margin-top: 50px;
+}

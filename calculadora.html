@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="calculator.css">
+<script src="calcular.js" > </script>
+<script src="validacoes.js" > </script>
+</head>
+<body>
+  <div class="demo" style="align:center">
+
+
+  <div class="calculator">
+      <div class="screen" id="inputCalc"></div>
+      <div class="keypad">
+          <div class="keys">
+              <button type="button" class="btn btn-warning btn-xs" value="7" onclick="imprimeValor(value)">7</button>
+              <button type="button" class="btn btn-warning btn-xs" value="8" onclick="imprimeValor(value)">8</button>
+              <button type="button" class="btn btn-warning btn-xs" value="9" onclick="imprimeValor(value)">9</button>
+              <button type="button" class="btn btn-warning btn-xs" value="/" onclick="imprimeValor(value)">/</button>
+          </div>
+          <div class="keys">
+              <button type="button" class="btn btn-warning btn-xs" value="4" onclick="imprimeValor(value)">4</button>
+              <button type="button" class="btn btn-warning btn-xs" value="5" onclick="imprimeValor(value)">5</button>
+              <button type="button" class="btn btn-warning btn-xs" value="6" onclick="imprimeValor(value)">6</button>
+              <button type="button" class="btn btn-warning btn-xs" value="x" onclick="imprimeValor(value)">x</button>
+          </div>
+          <div class="keys">
+              <button type="button" class="btn btn-warning btn-xs" value="1" onclick="imprimeValor(value)">1</button>
+              <button type="button" class="btn btn-warning btn-xs" value="2" onclick="imprimeValor(value)">2</button>
+              <button type="button" class="btn btn-warning btn-xs" value="3" onclick="imprimeValor(value)">3</button>
+              <button type="button" class="btn btn-warning btn-xs" value="-" onclick="imprimeValor(value)">-</button>
+          </div>
+          <div class="keys">
+              <button type="button" class="btn btn-warning btn-xs" value="0" onclick="imprimeValor(value)">0</button>
+              <button type="button" class="btn btn-warning btn-xs" value="." onclick="imprimeValor(value)">.</button>
+              <button type="button" class="btn btn-warning btn-xs" value="=" onclick="calcula(value)">=</button>
+              <button type="button" class="btn btn-warning btn-xs" value="+" onclick="imprimeValor(value)">+</button>
+          </div>
+      </div>
+      <div class="clear">
+        <button type="button" class="btn btn-danger btn-xs" value="C" onclick="imprimeValor(value)">C</button>
+      </div>
+  </div>
+
+
+  </div>
+</body>
+</html>
