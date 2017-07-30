@@ -51,20 +51,4 @@ function trocarSinal(valor, texto, indiceUltimaLetra) {
   return null;
 }
 
-function realizaOperacao(valorUm,valorDois, operacao){
-  var resultado;
-  var valor1 = parseInt(valorUm);
-  var valor2 = parseInt(valorDois);
-  switch (operacao) {
-    case '-': resultado=valor1-valor2;
-    return resultado;
-    case '+': resultado=valor1+valor2;
-    return resultado;
-    case '/': resultado=valor1/valor2;
-    return resultado;
-    case 'x': resultado=valor1*valor2;
-    return resultado;
-    default:return null;
-
-  }
 }
