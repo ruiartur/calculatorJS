@@ -50,5 +50,3 @@ function trocarSinal(valor, texto, indiceUltimaLetra) {
   }
   return null;
 }
-
-}
